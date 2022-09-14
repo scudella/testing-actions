@@ -1,10 +1,10 @@
 {
   "name": "spiritist-books",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Get random spiritist books",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/scudella/spiritist-books#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.6",
+    "mocha": "10.0.0"
   }
 }
