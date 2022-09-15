@@ -11,6 +11,3 @@ jobs:
       - run: npm install
       - run: npm run test:single
       - run: npm run semantic-release
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
