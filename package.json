@@ -1,7 +1,7 @@
 {
-  "name": "spiritist-books",
+  "name": "testing-actions",
   "version": "0.0.0-development",
-  "description": "Get random spiritist books",
+  "description": "Get random books",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scudella/spiritist-books.git"
+    "url": "https://github.com/scudella/testing-actions.git"
   },
   "keywords": [
     "random",
@@ -21,9 +21,9 @@
   "author": "Eduardo S. Libardi <devscudella@gmail.com> (https://portfolio.scudella.net.br/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scudella/spiritist-books/issues"
+    "url": "https://github.com/scudella/testing-actions/issues"
   },
-  "homepage": "https://github.com/scudella/spiritist-books#readme",
+  "homepage": "https://github.com/scudella/testing-actions#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
