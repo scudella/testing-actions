@@ -28,6 +28,7 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
+    "@semantic-release/exec": "6.0.3",
     "chai": "4.3.6",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
