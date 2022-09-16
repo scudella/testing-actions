@@ -31,8 +31,7 @@
     "chai": "4.3.6",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
-    "mocha": "10.0.0",
-    "semantic-release": "^19.0.5"
+    "mocha": "10.0.0"
   },
   "config": {
     "commitizen": {
@@ -41,5 +40,8 @@
   },
   "release": {
     "branches": ["main", "master"]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
